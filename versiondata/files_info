@@ -9,6 +9,9 @@
         help.py
         configerror.py
         configpaths.py
+        domains.py
+        steplog.py
+        mirrorinfo.py
         selfupdate.py
         selfupdate.sh
 
