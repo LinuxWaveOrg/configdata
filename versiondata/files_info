@@ -16,6 +16,7 @@
         selfupdate.sh
 
     pkg/
+        upgrader.py
         pkginstaller.py
         pkginstaller.sh
         pkginfohelper.py
