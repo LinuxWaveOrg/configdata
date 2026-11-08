@@ -1,5 +1,5 @@
-version: "3.2.0"
-release_date: "2026-10-29"
-build_number: "302D1838"
+version: "3.2.1"
+release_date: "2026-11-08"
+build_number: "312A1137"
 branch: "3.2"
 update_command: <<< /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/LinuxWaveOrg/LinuxWave/3.2/lib/selfupdate.sh)" >>>
