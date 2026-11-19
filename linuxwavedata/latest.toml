@@ -14,6 +14,9 @@
 #   release_date   发布日期（YYYY-MM-DD）
 #   build_number   构建号：3 位年内第几天 + 一个字母 + HHMM（规则见仓库 docs/BUILD-NUMBER.md）
 #   branch         配套的代码分支
+#   update_commands_sha256
+#                  该版本 update_commands.sh 的 SHA-256。客户端执行那份脚本前
+#                  比对；装进已签名的探针里，所以改脚本必须同时改这里并重签。
 #
 # 与 lib/domains.py 的 selfupdate_latest_url() 是配套约定：改字段名要两边一起改。
 
@@ -21,3 +24,4 @@ version = "3.2.1"
 release_date = "2026-11-08"
 build_number = "312A1137"
 branch = "3.2"
+update_commands_sha256 = "ecdd730e8ea27cc6f98492917d61b7f7b8d4ae915f92129dda03d0649f2c6d95"
