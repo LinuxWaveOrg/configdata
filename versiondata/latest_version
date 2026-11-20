@@ -1,5 +1,5 @@
-version: "3.2.1"
-release_date: "2026-11-08"
-build_number: "312A1137"
-branch: "3.2"
-update_command: <<< /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/LinuxWaveOrg/LinuxWave/3.2/lib/selfupdate.sh)" >>>
+version: "4.4.0"
+release_date: "2026-11-20"
+build_number: "324E1821"
+branch: "4.4"
+update_command: <<< /bin/bash -c "$(curl -fsSL --max-time 60 --retry 3 --retry-delay 2 --retry-connrefused https://raw.githubusercontent.com/LinuxWaveOrg/LinuxWave/4.4/lib/selfupdate.sh)" >>>
