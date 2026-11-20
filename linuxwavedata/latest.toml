@@ -20,8 +20,8 @@
 #
 # 与 lib/domains.py 的 selfupdate_latest_url() 是配套约定：改字段名要两边一起改。
 
-version = "3.2.1"
-release_date = "2026-11-08"
-build_number = "312A1137"
-branch = "3.2"
-update_commands_sha256 = "ecdd730e8ea27cc6f98492917d61b7f7b8d4ae915f92129dda03d0649f2c6d95"
+version = "4.0.0"
+release_date = "2026-11-20"
+build_number = "324E1459"
+branch = "4.0"
+update_commands_sha256 = "fbed34b3fcf555c0df9c51b74d05e899accdde110c5c811e78ef44a9c16b3b4a"
